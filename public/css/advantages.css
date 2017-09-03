@@ -1,0 +1,14 @@
+.advantages {
+  padding: 40px 0;
+}
+
+.advantage {
+  padding: 10px;
+}
+
+.advantage img {
+  border-radius: 10%;
+  border: solid #FAEBD7;
+  width: 120px;
+  height: 120px;
+}

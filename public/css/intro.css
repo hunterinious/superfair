@@ -1,0 +1,45 @@
+.intro {
+  /*background-image: url("../images/bg.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  -webkit-box-shadow: inset 350px 350px 100px 100px rgba(0,0,0,0.4);
+  -moz-box-shadow:    inset 350px 350px 100px 100px rgba(0,0,0,0.4);
+  box-shadow:         inset 350px 350px 100px 100px rgba(0,0,0,0.4);
+
+  padding: 60px;
+  margin-top: 76px;
+  max-width: 100%;
+}
+
+.intro-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+
+@media (max-width: 640px) {
+  .intro {
+    background-size: 640px 590px;
+  }
+}
+
+@media (max-width: 480px) {
+  .intro {
+    background-size: 480px 620px;
+  }
+
+  .intro-title,
+  .intro-sub-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 370px) {
+  .intro {
+    background-size: 370px 700px;
+  }
+}

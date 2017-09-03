@@ -1,0 +1,52 @@
+body {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.intro-title {
+  font-size: 2.5em;
+}
+
+.intro-sub-title {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.intro-title,
+.intro-sub-title {
+  font-weight: 900;
+  text-shadow: 2px 2px 2px maroon, 2px 2px 1em #483D8B;
+  color: #FFF8DC;
+}
+
+.title-large {
+  font-size: 42px;
+  margin-bottom: 18px;
+}
+
+.title-medium {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.title-small {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.text-lead {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+}
+
+.title-large,
+.title-medium,
+.title-small,
+.text-lead {
+  font-family: Palatino Linotype, Book Antiqua3, Palatino6, serif
+}
+
+.text-center {
+  text-align: center;
+}

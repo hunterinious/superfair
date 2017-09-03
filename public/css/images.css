@@ -1,0 +1,21 @@
+.image-container,
+.image {
+  width: 470px;
+  height: 400px;
+}
+
+.image {
+  border: solid #FAEBD7;
+}
+
+.pay-image {
+  border: none;
+}
+
+@media (max-width: 640px) {
+  .image-container,
+  .image {
+    width: 310px;
+    height: 300px;
+  }
+}

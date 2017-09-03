@@ -1,0 +1,28 @@
+.pay-button,
+.transform-button {
+  border-radius: 7px;
+  border: solid #FFD700;
+  background: #EEE8AA;
+  color: black;
+  text-align: center;
+}
+
+.pay-button:hover,
+.transform-button:hover {
+  background: #F0E68C;
+  transition: all ease .2s;
+}
+
+.transform-button {
+  padding: 15px 15px 0px 15px;
+  width: 160px;
+  height: 34px;
+}
+
+.pay-button {
+  padding: 0px 15px 0px 15px;
+  width: 200px;
+  height: 50px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
